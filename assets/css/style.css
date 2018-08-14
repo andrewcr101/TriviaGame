@@ -1,0 +1,38 @@
+body {
+    background-image: url("../images/download.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.crystals{
+	display: flex;
+	justify-content: space-around;
+	
+	align-items: center;
+}
+
+.crystal {
+	border: 1px solid green;
+	height: 200px;
+	width: 200px;
+}
+
+.drew-nav{
+	background-color: black;
+	color: red;
+	text-align: center;
+}
+
+.drew-text{
+	color: red;
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+}
+
+#result {
+	font-weight: bold;
+}
