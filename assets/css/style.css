@@ -1,8 +1,10 @@
 body {
-    background-image: url("../images/download.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
+    background-image: url("../images/mY93sgs.jpg");
+    color: white;
+
+
+    
+    
 }
 
 .crystals{
@@ -12,11 +14,7 @@ body {
 	align-items: center;
 }
 
-.crystal {
-	border: 1px solid green;
-	height: 200px;
-	width: 200px;
-}
+
 
 .drew-nav{
 	background-color: black;
@@ -35,4 +33,14 @@ body {
 
 #result {
 	font-weight: bold;
+}
+
+.container1{
+    text-align: center;
+}
+
+#question, #result, #option{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
 }

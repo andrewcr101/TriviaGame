@@ -1,30 +1,30 @@
 var allQuestions = [{
-  question: " What does Ralphie want for Christmas?",
-  choices: ["Fire Truck", "BB Gun", "Atari", "Bicycle"],
+  question: "Who is Isildur's heir?",
+  choices: ["Faramir", "Aragorn", "Bormomir", "Galadriel"],
   correctAnswer: 1
 },
 
 {
-  question: "When Ralphie is sitting on Santa's lap his mind goes blank and he can't remember what he wants for Christmas. What does Santa suggest he bring Ralphie?",
-  choices: ["A nice football", "Video Game", "Bicycle", "Sling Shot"],
+  question: "How many hobbits are there in the fellowship?",
+  choices: ["2", "3", "5", "4"],
+  correctAnswer: 3
+},
+
+{
+  question: "Does Sam marry at the end?",
+  choices: ["Yes", "No", "Yes but he divorces", "No because he dies"],
   correctAnswer: 0
 },
 
 {
-  question: "What color were Scut Farkus's eyes?",
-  choices: ["Red", "White", "Gray", "Yellow"],
+  question: "Who in the fellowship trys to take the ring from Frodo?",
+  choices: ["Aragorn", "Legolas", "Sam", "Boromir"],
   correctAnswer: 3
 },
 
 {
-  question: "Whose book was this movie based upon?",
-  choices: ["Ernest Hemingway", "John Updike", "John Steinbeck", "Jean Shepherd"],
-  correctAnswer: 3
-},
-
-{
-  question: "Which store window did Ralph see the Air Rifle in when he went into town?",
-  choices: ["Macy's", "Higbee's", "Saks 5th Avenue", "Dillards's"],
+  question: "What was Gollum’s hobbit name?",
+  choices: ["Frshol", "Smeagol", "Bandobras", "Tobold"],
   correctAnswer: 1
 }
 ];
@@ -75,7 +75,7 @@ $("#quizbutton").empty();
 $("#question").empty();
 $("#form").empty();
 $("#time-left").empty();
-$("#next").empty();
+$("#submit").empty();
 $("#result").html("You correctly answered " + correctAnswers + " out of " + currentquestion + " questions! ");
 }
 
